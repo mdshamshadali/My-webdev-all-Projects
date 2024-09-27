@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .ball{
+        height: 90px;
+        width: 90px;
+        background-color: brown;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 22px;
+        left: 0;
+        animation: ShamshadX 3s linear infinite,Shamshady 1s ease-in-out infinite alternate;
+       
+    }
+    @keyframes ShamshadX{
+        from{
+            left: 0; 
+
+        }
+        to{
+          left: 100%;
+
+        }
+    }
+    @keyframes Shamshady{
+        from{
+            bottom: 0;
+
+        }
+        to{
+          bottom: 100%;
+
+        }
+    }
+    .box{
+        height: 640px;
+        width: 1000px;
+        background-color: aqua;
+    }
+
+</style>
+<body>
+    <div class="box">
+        <div class="ball"></div>
+
+
+    </div>
+</body>
+</html>

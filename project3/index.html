@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css position boxes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .parents{
+            margin: 45px;
+            padding: 34px;
+            border: 3px solid black;
+            filter: invert(0);
+        }
+
+        .box {
+
+            height: 350px;
+            width: 50vw;
+            padding: 3px;
+            margin: 3px;
+            border: 3px solid black;
+        }
+
+        .box1 {
+            background-color: aqua;
+           position: sticky;
+           margin: 0;
+           padding: 0;
+           top: 0;
+           
+           height: 24px;
+           width: 100%;
+            
+        }
+
+        .box2 {
+            background-color: rgb(18, 25, 219);
+            
+           
+        }
+
+        .box3 {
+            background-color: rgb(207, 4, 4);
+            
+        }
+
+        .box4 {
+            background-color: rgb(158, 13, 249);
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parents">
+        <div class="box box1">hi</div>
+        <div class="box box2">hlo</div>
+        <div class="box box3">mkl</div>
+        <div class="box box4">jnn</div>
+    </div>
+
+</body>
+
+</html>
